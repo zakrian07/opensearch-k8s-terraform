@@ -259,7 +259,7 @@ service:
   labelsHeadless: {}
   headless:
     annotations: {}
-  type: ClusterIP
+  type: LoadBalancer
   nodePort: ""
   annotations: {}
   httpPortName: http
